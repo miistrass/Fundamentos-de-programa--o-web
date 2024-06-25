@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução ao HTML, CSS e JavaScript</title>
+    <link rel="stylesheet" href="style/style-artigo.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <a href="/index.html">/Home</a>
+        <a href="/about.html">/Aprenda aqui</a>
+        <a href="/form.html">/Questionário</a>
+      </nav>
+    </header>
+    <div>
+      <div class="container-html">
+        <h1>Introdução ao HTML, CSS e JavaScript</h1>
+        <p>
+          HTML, CSS e JavaScript são três das tecnologias mais importantes da
+          web. Elas são frequentemente usadas juntas para criar páginas web
+          interativas e esteticamente agradáveis. Vamos explorar cada uma delas,
+          entender suas funções e ver alguns exemplos simples.
+        </p>
+        <br />
+        <h2>O que é HTML?</h2>
+        <br />
+        <p>
+          HTML (HyperText Markup Language) é a linguagem padrão usada para criar
+          e estruturar conteúdo na web. Ela define a estrutura básica de uma
+          página web utilizando uma série de elementos ou tags. Exemplo Simples
+          de HTML:
+        </p>
+        <br />
+        <div class="caixa-codigo">
+          <pre><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-BR"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Exemplo de HTML&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+                    &lt;p&gt;Este é um exemplo simples de uma página HTML.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code></pre>
+        </div>
+        <br />
+        <p><strong>Principais Tags do HTML:</strong></p>
+        <br />
+        <ul>
+          <li><code>&lt;html&gt;</code>: Define o documento HTML.</li>
+          <li>
+            <code>&lt;head&gt;</code>: Contém metadados sobre o documento.
+          </li>
+          <li>
+            <code>&lt;title&gt;</code>: Define o título da página (aparece na
+            aba do navegador).
+          </li>
+          <li>
+            <code>&lt;body&gt;</code>: Contém o conteúdo visível da página.
+          </li>
+          <li>
+            <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>: Definem títulos,
+            sendo <code>&lt;h1&gt;</code> o mais importante e
+            <code>&lt;h6&gt;</code> o menos importante.
+          </li>
+          <li><code>&lt;p&gt;</code>: Define um parágrafo.</li>
+          <li><code>&lt;a&gt;</code>: Define um hyperlink.</li>
+          <li><code>&lt;img&gt;</code>: Insere uma imagem.</li>
+          <li>
+            <code>&lt;div&gt;</code>: Define uma seção ou um contêiner genérico.
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div class="container-css">
+        <h2>O que é CSS?</h2>
+        <br />
+        <p>
+          CSS (Cascading Style Sheets) é uma linguagem de estilo usada para
+          descrever a apresentação de um documento HTML. Ele controla a
+          aparência dos elementos HTML, como cores, fontes, espaçamentos e
+          layout.
+        </p>
+        <br />
+        <p><strong>Exemplo Simples de CSS:</strong></p>
+        <div class="caixa-codigo">
+          <pre><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-BR"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Exemplo de CSS&lt;/title&gt;
+                    &lt;style&gt;
+                        body {
+                            font-family: Arial, sans-serif;
+                        }
+                        h1 {
+                            color: blue;
+                        }
+                        p {
+                            font-size: 16px;
+                            color: green;
+                        }
+                    &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+                    &lt;p&gt;Este é um exemplo simples de uso de CSS.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code></pre>
+        </div>
+        <br />
+        <p><strong>Principais Informações do CSS:</strong></p>
+        <br />
+        <ul>
+          <li><code>color</code>: Define a cor do texto.</li>
+          <li><code>font-family</code>: Define a fonte do texto.</li>
+          <li><code>font-size</code>: Define o tamanho da fonte.</li>
+          <li>
+            <code>background-color</code>: Define a cor de fundo de um elemento.
+          </li>
+          <li><code>margin</code>: Define a margem externa de um elemento.</li>
+          <li>
+            <code>padding</code>: Define o espaçamento interno de um elemento.
+          </li>
+          <li><code>border</code>: Define a borda de um elemento.</li>
+        </ul>
+      </div>
+      <br />
+      <div class="container-javascript">
+        <h2>O que é JavaScript?</h2>
+        <br />
+        <p>
+          JavaScript é uma linguagem de programação que permite adicionar
+          interatividade às páginas web. Ele pode alterar o conteúdo e o estilo
+          dos elementos HTML em resposta a eventos do usuário, como cliques ou
+          entradas de formulário. Exemplo Simples de JavaScript:
+        </p>
+        <br />
+        <div class="caixa-codigo">
+          <pre><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-BR"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Exemplo de JavaScript&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+                    &lt;p id="paragrafo"&gt;Este é um exemplo simples de uso de JavaScript.&lt;/p&gt;
+                    &lt;button onclick="mudarTexto()"&gt;Clique aqui&lt;/button&gt;
+            
+                    &lt;script&gt;
+                        function mudarTexto() {
+                            document.getElementById('paragrafo').innerText = 'O texto foi alterado!';
+                        }
+                    &lt;/script&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code></pre>
+        </div>
+        <br />
+        <p><strong>O Básico do JavaScript:</strong></p>
+        <br />
+        <ul>
+          <li>
+            <code>document.getElementById('id')</code>: Seleciona um elemento
+            pelo seu ID.
+          </li>
+          <li>
+            <code>innerText</code>: Propriedade que define ou obtém o texto
+            interno de um elemento.
+          </li>
+          <li>
+            <code>function nomeDaFuncao() { ... }</code>: Declara uma função.
+          </li>
+          <li>
+            <code>onclick</code>: Atributo HTML que executa JavaScript quando o
+            elemento é clicado.
+          </li>
+        </ul>
+      </div>
+      <br>
+      <div>
+        <h2>Chegou a hora de você responder o questionário!</h2>
+        <p class="container">Clique <a href="/form.html">aqui</a> para responder agora!</p>
+      </div>
+    </div>
+    <footer class="rodape">
+      Este site foi desenvolvido por <strong>Milena Strassburger da Silva</strong>
+    </footer>
+  </body>
+</html>

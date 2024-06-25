@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Questionário</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <a href="/index.html">/Home</a>
+        <a href="/about.html">/Aprenda aqui</a>
+        <a href="/form.html">/Questionário</a>
+      </nav>
+    </header>
+
+    <h1>Questionário</h1>
+    <form method="GET" action="formAction.html">
+      <div>
+        <h2 class="subtitulo">Responda as perguntas a seguir:</h2>
+        <h3 class="titulo3">Qual é a principal função do HTML?</h3>
+
+        <div class="alternativas">
+          <input type="radio" id="html1" name="html-q-1" />
+          <label for="html-q-1">a) Estilizar elementos da página</label><br />
+          <input type="radio" id="html2" name="html-q-2" />
+          <label for="html-q-2">b) Adicionar interatividade à página</label><br />
+          <input type="radio" id="html3" name="html-q-3" />
+          <label for="html-q-3">c) Estruturar o conteúdo da página</label><br />
+          <input type="radio" id="html4" name="html-q-4" />
+          <label for="html-q-4">d) Executar scripts no servidor</label>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <h3 class="titulo3">
+          Qual tag HTML é usada para definir um parágrafo?
+        </h3>
+
+        <div class="alternativas">
+          <input type="radio" id="html5" name="html-q-5" />
+          <label for="html-q-5">a)<code> &lt;p&gt;</code></label><br />
+          <input type="radio" id="html6" name="html-q-6" />
+          <label for="html6">b)<code> &lt;div&gt;</code> </label><br />
+          <input type="radio" id="html7" name="html-q-7" />
+          <label for="html7">c)<code> &lt;a&gt;</code> </label><br />
+          <input type="radio" id="html8" name="html-q-8" />
+          <label for="html8">d)<code> &lt;h1&gt;</code> </label>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <h3 class="titulo3">
+          Qual propriedade CSS é usada para definir a cor de fundo de um
+          elemento?
+        </h3>
+
+        <div class="alternativas">
+          <input type="radio" id="css1" name="css-q-1" />
+          <label for="css1">a) <code>color</code> </label><br />
+          <input type="radio" id="css2" name="css-q-2" />
+          <label for="css2">b) <code>background-color</code> </label><br />
+          <input type="radio" id="css3" name="css-q-3" />
+          <label for="css3">c) <code>font-size</code> </label><br />
+          <input type="radio" id="css4" name="css-q-4" />
+          <label for="css4">d) <code>border</code> </label>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <h3 class="titulo3">
+          O que o código
+          <i>document.getElementById('paragrafo').innerText</i> faz em
+          JavaScript?
+        </h3>
+
+        <div class="alternativas">
+          <input type="radio" id="js1" name="js-q-1" />
+          <label for="js1">a) Seleciona um elemento pelo seu nome de classe</label><br />
+          <input type="radio" id="js2" name="js-q-2" />
+          <label for="js2">b) Altera o estilo de um elemento</label><br />
+          <input type="radio" id="js3" name="js-q-3" />
+          <label for="js3">c) Seleciona um elemento pelo seu ID e altera seu texto interno</label><br />
+          <input type="radio" id="js4" name="js-q-4" />
+          <label for="js4">d) Adiciona uma nova função ao documento</label>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <h3 class="titulo3">
+          Qual das seguintes opções é um exemplo de uma função em JavaScript?
+        </h3>
+
+        <div class="alternativas">
+          <input type="radio" id="js5" name="js-q-5" />
+          <label for="js5">a) <code>&lt;button onclick="mudarTexto()"&gt;Clique aqui&lt;/button&gt;</code></label><br />
+          <input type="radio" id="js6" name="js-q-6" />
+          <label for="js6">b) <code>function mudarTexto() { ... }</code> </label><br />
+          <input type="radio" id="js7" name="js-q-7" />
+          <label for="js7">c) <code>color: blue;</code></label><br />
+          <input type="radio" id="js8" name="js-q-8" />
+          <label for="js8">d) <code>&lt;h1&gt;Olá, Mundo!&lt;/h1&gt;</code></label>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div class="formulario-dados">
+        <h2>Para salvar suas respostas, forneça os dados:</h2>
+        <label for="pname">Seu nome:</label><br />
+        <input type="text" id="pnome" name="pnome" placeholder="Nome completo" required/><br />
+        <label for="uname">Seu e-mail:</label><br />
+        <input type="email" id="email" name="email" placeholder="E-mail" required/><br />
+        <label for="phone">Seu telefone:</label><br />
+        <input type="text" id="phone" name="phone" placeholder="Telefone" required/><br /><br />
+        <input type="submit" value="Enviar" />
+      </div>
+    </form>
+    <footer class="rodape">
+      Este site foi desenvolvido por <strong>Milena Strassburger da Silva</strong>
+    </footer>
+  </body>
+</html>
